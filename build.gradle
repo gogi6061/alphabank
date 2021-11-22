@@ -19,26 +19,26 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter-actuator:2.5.5'
-    implementation 'org.springframework.boot:spring-boot-starter-web:2.5.5'
-    compileOnly 'org.projectlombok:lombok:1.18.20'
-    annotationProcessor 'org.projectlombok:lombok:1.18.20'
-    testImplementation 'org.springframework.boot:spring-boot-starter-test:2.5.5'
+    implementation 'org.springframework.boot:spring-boot-starter-actuator:2.5.6'
+    implementation 'org.springframework.boot:spring-boot-starter-web:2.5.6'
+    compileOnly 'org.projectlombok:lombok:1.18.22'
+    annotationProcessor 'org.projectlombok:lombok:1.18.22'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test:2.5.6'
     // https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-feign
 // https://mvnrepository.com/artifact/io.github.openfeign/feign-core
-    implementation 'io.github.openfeign:feign-core:11.6'
+    implementation 'io.github.openfeign:feign-core:11.7'
     // https://mvnrepository.com/artifact/io.github.openfeign/feign-jackson
-    implementation 'io.github.openfeign:feign-jackson:11.6'
+    implementation 'io.github.openfeign:feign-jackson:11.7'
     // https://mvnrepository.com/artifact/io.github.openfeign/feign-okhttp
-    implementation 'io.github.openfeign:feign-okhttp:11.6'
+    implementation 'io.github.openfeign:feign-okhttp:11.7'
 // https://mvnrepository.com/artifact/io.github.openfeign/feign-slf4j
-    implementation 'io.github.openfeign:feign-slf4j:11.6'
+    implementation 'io.github.openfeign:feign-slf4j:11.7'
+
+    // https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-openfeign
+    implementation group: 'org.springframework.cloud', name: 'spring-cloud-starter-openfeign', version: '3.0.5'
 
 
 
 
-}
 
-test {
-    useJUnitPlatform()
 }
