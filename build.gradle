@@ -5,8 +5,10 @@ plugins {
 }
 
 group = 'com.amiriskhakov'
-version = '0.0.1-SNAPSHOT'
+version = ''
 sourceCompatibility = '11'
+
+
 
 configurations {
     compileOnly {

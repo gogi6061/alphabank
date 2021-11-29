@@ -5,7 +5,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
-import java.time.LocalDate;
 
 @ToString
 @AllArgsConstructor
@@ -14,7 +13,6 @@ import java.time.LocalDate;
 public class CurrDTO {
 
     Double todayCourse;
-    Double tomorrowCourse;
-
+    Double yesterdayCourse;
 
 }
